@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{title}}</title>
+
+        <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-0.9.0.min.css" type="text/css" />
+        <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-0.9.0.min.js"></script>
+        {{ script|indent(4)|safe }}
+    </head>
+    <body>
+        {{ div|indent(4)|safe }}
+        <a href="/" title="Back to the Home page"><b>HOME</b></a>
+    </body>
+</html>
